@@ -54,7 +54,7 @@ main {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding-top: 100px;
+  padding-top: 30px;
   padding-bottom: 200px;
 }
 
@@ -62,6 +62,7 @@ main {
   width: 60%;
   display: flex;
   padding: 50px;
+  padding-bottom: 220px;
 }
 
 .content-left {
@@ -125,6 +126,109 @@ main {
 
 .content-right {
   width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.apps-con {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 150px;
+}
+
+.apps-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.apps-header h2 {
+  font-size: 50px;
+  font-weight: 900;
+  color: var(--black);
+  margin: 0;
+}
+
+.apps-header > p {
+  font-size: 32px;
+  opacity: 0.45;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  font-weight: 700;
+}
+
+.apps-examples {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.app {
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.app img {
+  width: 340px;
+  height: 223px;
+}
+
+.app > p {
+  font-size: 12px;
+  align-self: flex-end;
+  margin: 0 10px 10px 0;
+  color: rgb(0, 0, 0, 0.45);
+}
+
+.app > p span {
+  text-decoration: underline;
+  color: rgb(0, 0, 0, 0.45);
+  transition: opacity 0.2s, color 0.2s;
+}
+
+.app > p span:hover {
+  color: #3041c4;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.app h4 {
+  font-size: 24px;
+  color: var(--black);
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.apps-links {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.apps-links a {
+  text-decoration: none;
+  color: #26339b;
+  font-size: 18px;
+  font-weight: 700;
+  opacity: 0.9;
+  transition: opacity 0.2;
+}
+
+.apps-links a img {
+  margin-left: 5px;
+  height: 16px;
+  width: 16px;
+}
+
+.apps-links a:hover {
+  opacity: 1;
 }
 
 .communities-con {
