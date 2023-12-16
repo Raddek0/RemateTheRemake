@@ -135,7 +135,6 @@ main {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 150px;
 }
 
 .apps-header {
@@ -229,6 +228,99 @@ main {
 
 .apps-links a:hover {
   opacity: 1;
+}
+
+.loophole-image {
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.loophole-image img {
+  width: 85%;
+  height: 85%;
+}
+
+.newsletter-con {
+  padding: 250px 0 150px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-left {
+  margin: 10px 0;
+}
+
+.news-right {
+}
+
+.newsletter-con h3 {
+  font-size: 42px;
+  color: var(--black);
+  font-weight: 900;
+  text-decoration: none solid rgb(43, 41, 45);
+  font-family: Gilmer-Font, sans-serif;
+  margin: 0;
+}
+
+.newsletter-con h4 {
+  font-size: 22px;
+  font-weight: 400;
+  opacity: 0.85;
+  margin: 15px 0 15px;
+}
+
+.email-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 540px;
+  height: 70px;
+}
+
+.email-input input {
+  width: 350px;
+  border: none;
+  height: 25px;
+  padding: 10px;
+}
+
+.email-input input::placeholder {
+  font-size: 18px;
+  opacity: 0.7px;
+}
+
+.email-input input:focus {
+  outline: 1px solid #3041c4;
+  border-radius: 5px;
+  transition: outline ease-in 0.2s;
+}
+
+.email-input button {
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 30px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  border: none;
+  background-color: #3041c4;
+  border-radius: 4px;
+  transition: background ease-in 0.1s;
+}
+
+.email-input button:hover {
+  cursor: pointer;
+  background-color: #26339b;
+}
+
+.news-left p {
+  font-size: 14px;
+  color: rgba(43, 41, 45, 0.6);
+  margin-top: 0;
 }
 
 .communities-con {
